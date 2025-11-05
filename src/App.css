@@ -1,0 +1,123 @@
+/* ===============================
+   Pharmacy Management System Style
+   Theme: Beige & Brown
+   Font: Times New Roman
+   =============================== */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5dc; /* beige */
+  font-family: "Times New Roman", serif;
+  color: #4b3f2f; /* dark brown text */
+}
+
+/* Main App container */
+.App {
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Header section */
+.App-header {
+  background-color: #a67c52; /* warm brown */
+  color: white;
+  padding: 25px 0;
+  font-size: 28px;
+  letter-spacing: 1px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Section container */
+.section-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  background-color: #fff8e7;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(75, 63, 47, 0.3);
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #a67c52;
+  color: white;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #d4c4a8;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f0e6d2;
+}
+
+tr:hover {
+  background-color: #e6d6b8;
+  transition: 0.2s;
+}
+
+/* Button styles */
+button {
+  background-color: #a67c52;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #8b6b42;
+}
+
+/* Input styles */
+input, select {
+  padding: 8px;
+  margin: 5px 0;
+  width: 90%;
+  border: 1px solid #cbb994;
+  border-radius: 5px;
+  font-family: "Times New Roman", serif;
+}
+
+/* Form container */
+form {
+  text-align: left;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+/* Subtle animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.section-container, table {
+  animation: fadeIn 0.8s ease-in;
+}
+
+/* Footer (optional) */
+footer {
+  background-color: #a67c52;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
